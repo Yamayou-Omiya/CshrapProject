@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build Project1",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Project1/Project1.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build Project2",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Project2/Project2.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
